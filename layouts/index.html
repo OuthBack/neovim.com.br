@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>{{ .Title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body hx-ext="class-tools, preload" class="bg-[#e7eee8]">
+    {{ partial "header.html" . }}
+    <main>
+      <!-- MastHead -->
+      {{ partial "masthead.html" . }}
+      <!-- About -->
+      {{ partial "about.html" . }}
+      <!-- Intro -->
+      {{ partial "intro.html" . }}
+      <!-- Faq and Plugins -->
+      {{ partial "faq-and-plugins.html" .}}
+      <!-- Footer -->
+      {{ partial "footer.html" .}}
+    </main>
+  </body>
+</html>
+
+<style>
+  body {
+    color: #29332f;
+  }
+
+  a {
+    color: #00b952;
+  }
+
+  a:hover {
+    color: #29332f;
+  }
+</style>
