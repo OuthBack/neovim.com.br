@@ -1,4 +1,8 @@
-# hugoBasicExample
+# About
+This is the repo for the https://neovim.com.br landing page. It's for help new neovim users to understand how it works.
+I also forked and translated in Portuguese the neovim kickstart https://github.com/OuthBack/kickstart-pt-br.nvim
+
+# Hugo
 
 This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
 
