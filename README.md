@@ -2,6 +2,8 @@
 This is the repo for the https://neovim.com.br landing page. It's for help new neovim users to understand how it works. I'm using hugo to bundle it.
 I also forked and translated in Portuguese the neovim kickstart https://github.com/OuthBack/kickstart-pt-br.nvim
 
+![image](https://github.com/OuthBack/neovim.com.br/assets/65133825/cadb70b8-6e5e-4ff9-84c6-d4ac66450807)
+
 # Hugo
 ## Using
 
